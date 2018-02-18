@@ -10,6 +10,9 @@
     </head>
     <body>
 
+        
+        <!-- <object type="image/svg+xml" data="img/pilot-hat.svg"></object> -->
+
         <!-- <svg width="500" height ="500">
             <defs>
                  <pattern id="image" height="1" width="1">
@@ -27,10 +30,8 @@
             <div class="card">
                 <h5 class="card-header">Crew Availability</h5>
                 <div class="card-body">
-                    <svg id="flightCrew" width="1200"></svg>   
-                   
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Crew Base</label>
+                        <label for="baseSelect">Crew Base</label>
                         <select class="form-control" id="baseSelect">
                             <option>All</option>
                             <option>AWO</option>
@@ -42,6 +43,15 @@
                             <option>AJN</option>
                         </select>
                     </div>  
+                    <div class="form-group">
+                        <label for="crewTypeSelect">Crew Type</label>
+                        <select class="form-control" id="crewTypeSelect">
+                            <option>All</option>
+                            <option>Flight Nurse</option>
+                            <option>Pilot</option>
+                        </select>
+                    </div> 
+                    <div id = "flightCrewBSRow" class="row"></div> 
                 </div>
                 <div class="card-footer"> 
                     <h5>Legend:</h5>
@@ -88,23 +98,3 @@
     </footer>
 
 </html>
-
-
-
-
-<!-- old dropdown
-
-     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Crew Base
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button class="dropdown-item" type="button">Seattle</button>
-                            <button class="dropdown-item" type="button">Bremerton</button>
-                            <button class="dropdown-item" type="button">Yakima</button>
-                            <button class="dropdown-item" type="button">Olympia</button>
-                        </div>
-                    </div> 
-
-
--->
