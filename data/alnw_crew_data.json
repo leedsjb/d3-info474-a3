@@ -1,0 +1,1202 @@
+[
+  {
+    "base": "OLM",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (899) 487-3753",
+    "name": {
+      "last": "Decker",
+      "first": "Herman"
+    },
+    "index": 0,
+    "_id": "5a891c0a6af932bc980113de"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (989) 600-2002",
+    "name": {
+      "last": "Gutierrez",
+      "first": "Wilder"
+    },
+    "index": 1,
+    "_id": "5a891c0a80beab4bf8a8e28f"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (942) 444-2403",
+    "name": {
+      "last": "Garrett",
+      "first": "Adeline"
+    },
+    "index": 2,
+    "_id": "5a891c0a7ea3f3a8dbad5f9b"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (986) 562-2700",
+    "name": {
+      "last": "Dalton",
+      "first": "Joanna"
+    },
+    "index": 3,
+    "_id": "5a891c0af8303827b2f9d812"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (964) 512-2013",
+    "name": {
+      "last": "Solis",
+      "first": "Johnson"
+    },
+    "index": 4,
+    "_id": "5a891c0a165c52a4da7f1f21"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (836) 572-3609",
+    "name": {
+      "last": "Kinney",
+      "first": "Suzette"
+    },
+    "index": 5,
+    "_id": "5a891c0a9f12eb3b83e38ffb"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (816) 489-3288",
+    "name": {
+      "last": "May",
+      "first": "Betsy"
+    },
+    "index": 6,
+    "_id": "5a891c0a323505ed76c84d7e"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (881) 437-2627",
+    "name": {
+      "last": "Baker",
+      "first": "Jana"
+    },
+    "index": 7,
+    "_id": "5a891c0a253002271cddeffa"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (839) 425-2099",
+    "name": {
+      "last": "Lang",
+      "first": "Lynn"
+    },
+    "index": 8,
+    "_id": "5a891c0adbc81cee90d4b785"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (884) 564-2206",
+    "name": {
+      "last": "Mcmillan",
+      "first": "Benita"
+    },
+    "index": 9,
+    "_id": "5a891c0ab3e3528f7433c381"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (925) 589-3557",
+    "name": {
+      "last": "Hahn",
+      "first": "Villarreal"
+    },
+    "index": 10,
+    "_id": "5a891c0abf83f950940c48a8"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (914) 493-2156",
+    "name": {
+      "last": "Fitzpatrick",
+      "first": "Mcdonald"
+    },
+    "index": 11,
+    "_id": "5a891c0aef70b397886a9e18"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (932) 593-2322",
+    "name": {
+      "last": "Burns",
+      "first": "Danielle"
+    },
+    "index": 12,
+    "_id": "5a891c0ae7785e9a7927e160"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (803) 599-2338",
+    "name": {
+      "last": "Dorsey",
+      "first": "Bethany"
+    },
+    "index": 13,
+    "_id": "5a891c0a5e1b96ab40dfa8e5"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (863) 577-3141",
+    "name": {
+      "last": "Calhoun",
+      "first": "Farmer"
+    },
+    "index": 14,
+    "_id": "5a891c0a275bf4201aa07b5e"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (931) 403-3795",
+    "name": {
+      "last": "Beasley",
+      "first": "Stacie"
+    },
+    "index": 15,
+    "_id": "5a891c0a21fbb7263da23b71"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (866) 432-2757",
+    "name": {
+      "last": "Flores",
+      "first": "Aisha"
+    },
+    "index": 16,
+    "_id": "5a891c0ae908d372f9c727b4"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (859) 547-3391",
+    "name": {
+      "last": "Le",
+      "first": "Herminia"
+    },
+    "index": 17,
+    "_id": "5a891c0a11b7324cf58bdf24"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (813) 485-3541",
+    "name": {
+      "last": "Ortega",
+      "first": "Ola"
+    },
+    "index": 18,
+    "_id": "5a891c0a5149935ee23ae74f"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (899) 567-2362",
+    "name": {
+      "last": "Bauer",
+      "first": "Hicks"
+    },
+    "index": 19,
+    "_id": "5a891c0a412e1fb64d63e075"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (900) 431-3364",
+    "name": {
+      "last": "Hayden",
+      "first": "Mccall"
+    },
+    "index": 20,
+    "_id": "5a891c0a79297c903f04c47e"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (868) 437-2420",
+    "name": {
+      "last": "Daniels",
+      "first": "Shannon"
+    },
+    "index": 21,
+    "_id": "5a891c0a90d45d77f6c1266a"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (956) 554-3726",
+    "name": {
+      "last": "Rush",
+      "first": "Tonia"
+    },
+    "index": 22,
+    "_id": "5a891c0ae540f2ab88207395"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (913) 559-3531",
+    "name": {
+      "last": "Morrow",
+      "first": "Kate"
+    },
+    "index": 23,
+    "_id": "5a891c0ad17fa40cde144002"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (935) 478-3102",
+    "name": {
+      "last": "Wallace",
+      "first": "Floyd"
+    },
+    "index": 24,
+    "_id": "5a891c0ad86e85ae2592190a"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (993) 560-3155",
+    "name": {
+      "last": "Graham",
+      "first": "Wendy"
+    },
+    "index": 25,
+    "_id": "5a891c0a92513dc3edf2297d"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (977) 484-3485",
+    "name": {
+      "last": "Swanson",
+      "first": "Reeves"
+    },
+    "index": 26,
+    "_id": "5a891c0a4da34e2ade3c7aa5"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (837) 475-2630",
+    "name": {
+      "last": "Blackburn",
+      "first": "Adkins"
+    },
+    "index": 27,
+    "_id": "5a891c0a491a9427f339093a"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (922) 432-3757",
+    "name": {
+      "last": "Richards",
+      "first": "Sparks"
+    },
+    "index": 28,
+    "_id": "5a891c0a8dd7d9bbaae4e796"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (887) 512-2665",
+    "name": {
+      "last": "Noble",
+      "first": "Ball"
+    },
+    "index": 29,
+    "_id": "5a891c0a7ff41ef58ab11136"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (949) 484-3724",
+    "name": {
+      "last": "Randolph",
+      "first": "Butler"
+    },
+    "index": 30,
+    "_id": "5a891c0a065aea40a1abe6cb"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (839) 546-3863",
+    "name": {
+      "last": "Haney",
+      "first": "Donovan"
+    },
+    "index": 31,
+    "_id": "5a891c0a0da4b7bc0cee6266"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (974) 489-2046",
+    "name": {
+      "last": "Mckee",
+      "first": "Moran"
+    },
+    "index": 32,
+    "_id": "5a891c0ad8260ddf70f82587"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (837) 593-3986",
+    "name": {
+      "last": "Dejesus",
+      "first": "Lane"
+    },
+    "index": 33,
+    "_id": "5a891c0a68dfae863fac96f9"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (841) 467-3965",
+    "name": {
+      "last": "Robbins",
+      "first": "Ginger"
+    },
+    "index": 34,
+    "_id": "5a891c0afafa903d8b0450ed"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (996) 583-2497",
+    "name": {
+      "last": "Holland",
+      "first": "Kelsey"
+    },
+    "index": 35,
+    "_id": "5a891c0a732ed52ef3ee33a9"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (987) 434-2960",
+    "name": {
+      "last": "Short",
+      "first": "Matthews"
+    },
+    "index": 36,
+    "_id": "5a891c0a39fdf29c9af8462e"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (950) 596-2043",
+    "name": {
+      "last": "Thomas",
+      "first": "Joyce"
+    },
+    "index": 37,
+    "_id": "5a891c0a4d98fae0b0515397"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (913) 419-2553",
+    "name": {
+      "last": "Rollins",
+      "first": "Compton"
+    },
+    "index": 38,
+    "_id": "5a891c0a9cbf998b3f257da8"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (959) 505-2390",
+    "name": {
+      "last": "Hendricks",
+      "first": "Gilliam"
+    },
+    "index": 39,
+    "_id": "5a891c0a96a23ba9b2422159"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (946) 567-3883",
+    "name": {
+      "last": "Ellis",
+      "first": "Alicia"
+    },
+    "index": 40,
+    "_id": "5a891c0b883631c98c87e429"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (994) 486-2133",
+    "name": {
+      "last": "Brady",
+      "first": "Althea"
+    },
+    "index": 41,
+    "_id": "5a891c0b21f48f5ee793c87f"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (942) 403-3726",
+    "name": {
+      "last": "Miranda",
+      "first": "Vasquez"
+    },
+    "index": 42,
+    "_id": "5a891c0bc3d8458bc6de67b0"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (926) 541-3704",
+    "name": {
+      "last": "Schroeder",
+      "first": "Leonard"
+    },
+    "index": 43,
+    "_id": "5a891c0b9cf8194549d933eb"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (995) 529-3531",
+    "name": {
+      "last": "Curtis",
+      "first": "Herring"
+    },
+    "index": 44,
+    "_id": "5a891c0b71c1aa27acd05733"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (998) 413-3999",
+    "name": {
+      "last": "Fields",
+      "first": "Jennifer"
+    },
+    "index": 45,
+    "_id": "5a891c0bf80f0c9f456dbc64"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (886) 411-3924",
+    "name": {
+      "last": "Osborne",
+      "first": "Kirby"
+    },
+    "index": 46,
+    "_id": "5a891c0b3d2fcef817b54f82"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (905) 416-3104",
+    "name": {
+      "last": "Doyle",
+      "first": "Hendricks"
+    },
+    "index": 47,
+    "_id": "5a891c0b6ad509239062c268"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (995) 572-2878",
+    "name": {
+      "last": "Wise",
+      "first": "Traci"
+    },
+    "index": 48,
+    "_id": "5a891c0b21030b5d3a043710"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (927) 457-2174",
+    "name": {
+      "last": "Willis",
+      "first": "Peterson"
+    },
+    "index": 49,
+    "_id": "5a891c0b0b5e4f0f7f8f89f6"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (972) 597-2258",
+    "name": {
+      "last": "Hinton",
+      "first": "Saunders"
+    },
+    "index": 50,
+    "_id": "5a891c0b4570f0d6aaf84fba"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (861) 572-3409",
+    "name": {
+      "last": "Chase",
+      "first": "Conner"
+    },
+    "index": 51,
+    "_id": "5a891c0b0c3998aed2fcb48c"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (994) 526-2013",
+    "name": {
+      "last": "Franco",
+      "first": "Terry"
+    },
+    "index": 52,
+    "_id": "5a891c0b62c97c3a0f113d20"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (824) 523-2096",
+    "name": {
+      "last": "Horton",
+      "first": "Fuentes"
+    },
+    "index": 53,
+    "_id": "5a891c0b106561eba42fba1f"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (921) 514-2245",
+    "name": {
+      "last": "Pruitt",
+      "first": "Ursula"
+    },
+    "index": 54,
+    "_id": "5a891c0be1c5de99066117f6"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (972) 595-2288",
+    "name": {
+      "last": "Burnett",
+      "first": "Baldwin"
+    },
+    "index": 55,
+    "_id": "5a891c0b81c747db47fdf68e"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (990) 453-2388",
+    "name": {
+      "last": "Booker",
+      "first": "Castillo"
+    },
+    "index": 56,
+    "_id": "5a891c0b398c848ba5116fa3"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (912) 473-2672",
+    "name": {
+      "last": "Gill",
+      "first": "Cardenas"
+    },
+    "index": 57,
+    "_id": "5a891c0bf668e8941c78fd9b"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (875) 570-3561",
+    "name": {
+      "last": "Barrera",
+      "first": "Harding"
+    },
+    "index": 58,
+    "_id": "5a891c0baf310aca142abc72"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (904) 587-3007",
+    "name": {
+      "last": "Stanley",
+      "first": "Foster"
+    },
+    "index": 59,
+    "_id": "5a891c0bd895ffd74fccde89"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (951) 518-2428",
+    "name": {
+      "last": "Yates",
+      "first": "Stephanie"
+    },
+    "index": 60,
+    "_id": "5a891c0bddcdd944513c2f76"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (910) 437-2935",
+    "name": {
+      "last": "Cain",
+      "first": "Tanya"
+    },
+    "index": 61,
+    "_id": "5a891c0bca87abfbc7db7426"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (868) 540-2794",
+    "name": {
+      "last": "Gregory",
+      "first": "Bryan"
+    },
+    "index": 62,
+    "_id": "5a891c0be8a21bc1a7f0acd7"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (899) 516-3486",
+    "name": {
+      "last": "Ellison",
+      "first": "Washington"
+    },
+    "index": 63,
+    "_id": "5a891c0b52ee75c2d52463b5"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (854) 498-3947",
+    "name": {
+      "last": "Carlson",
+      "first": "Moreno"
+    },
+    "index": 64,
+    "_id": "5a891c0bba7eb13e15266a48"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (853) 453-3896",
+    "name": {
+      "last": "Good",
+      "first": "Enid"
+    },
+    "index": 65,
+    "_id": "5a891c0b4912242c64db8fa6"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (936) 581-2029",
+    "name": {
+      "last": "Velazquez",
+      "first": "Trisha"
+    },
+    "index": 66,
+    "_id": "5a891c0b375080b0a56bec6b"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (955) 446-3974",
+    "name": {
+      "last": "Holman",
+      "first": "Cassandra"
+    },
+    "index": 67,
+    "_id": "5a891c0be304b4402119e73f"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (950) 403-3521",
+    "name": {
+      "last": "Kline",
+      "first": "Anderson"
+    },
+    "index": 68,
+    "_id": "5a891c0b94d590cd049c112f"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (924) 516-3735",
+    "name": {
+      "last": "Morse",
+      "first": "Andrea"
+    },
+    "index": 69,
+    "_id": "5a891c0be56f99e5003cc546"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (833) 408-3803",
+    "name": {
+      "last": "Fitzgerald",
+      "first": "Jeanie"
+    },
+    "index": 70,
+    "_id": "5a891c0b205a77b07893f923"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (859) 414-3459",
+    "name": {
+      "last": "Benson",
+      "first": "Jacqueline"
+    },
+    "index": 71,
+    "_id": "5a891c0ba19af8b0b5994a50"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (841) 523-3646",
+    "name": {
+      "last": "Meyer",
+      "first": "Hanson"
+    },
+    "index": 72,
+    "_id": "5a891c0bee427df03cb21cb5"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (939) 458-3327",
+    "name": {
+      "last": "Melendez",
+      "first": "Valdez"
+    },
+    "index": 73,
+    "_id": "5a891c0b58890f2e233be7b0"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (934) 482-2417",
+    "name": {
+      "last": "Caldwell",
+      "first": "Shaffer"
+    },
+    "index": 74,
+    "_id": "5a891c0b07886f4380257cac"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (964) 520-3375",
+    "name": {
+      "last": "Roach",
+      "first": "Mollie"
+    },
+    "index": 75,
+    "_id": "5a891c0bf34e97bf39a87f4b"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (812) 428-3643",
+    "name": {
+      "last": "Perez",
+      "first": "Dee"
+    },
+    "index": 76,
+    "_id": "5a891c0bf409b7f1e431f748"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (949) 573-3063",
+    "name": {
+      "last": "Marsh",
+      "first": "Blackburn"
+    },
+    "index": 77,
+    "_id": "5a891c0bf742e830980e89f1"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (850) 534-2295",
+    "name": {
+      "last": "Reed",
+      "first": "Lourdes"
+    },
+    "index": 78,
+    "_id": "5a891c0b8f2c0f79e73b6721"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (847) 401-3514",
+    "name": {
+      "last": "Vazquez",
+      "first": "Sosa"
+    },
+    "index": 79,
+    "_id": "5a891c0b5c2c41f949685c63"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (985) 508-3665",
+    "name": {
+      "last": "Murray",
+      "first": "Margo"
+    },
+    "index": 80,
+    "_id": "5a891c0bae2b7962e5b4b65b"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (957) 547-2274",
+    "name": {
+      "last": "Lowery",
+      "first": "Simmons"
+    },
+    "index": 81,
+    "_id": "5a891c0b8046faafc3acd737"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (873) 425-3741",
+    "name": {
+      "last": "Stephens",
+      "first": "Tonya"
+    },
+    "index": 82,
+    "_id": "5a891c0bc4ebcbf48b6a9f4d"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (999) 526-2017",
+    "name": {
+      "last": "Franks",
+      "first": "Solis"
+    },
+    "index": 83,
+    "_id": "5a891c0b03967a880a470363"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (818) 585-2612",
+    "name": {
+      "last": "White",
+      "first": "Scott"
+    },
+    "index": 84,
+    "_id": "5a891c0b9d1a96492335121a"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (879) 477-3267",
+    "name": {
+      "last": "Shepard",
+      "first": "White"
+    },
+    "index": 85,
+    "_id": "5a891c0b155b560d27f57037"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (873) 583-3518",
+    "name": {
+      "last": "Wiggins",
+      "first": "Robbins"
+    },
+    "index": 86,
+    "_id": "5a891c0b651d169470e0dfee"
+  },
+  {
+    "base": "YKM",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (921) 457-3642",
+    "name": {
+      "last": "Blevins",
+      "first": "Madeleine"
+    },
+    "index": 87,
+    "_id": "5a891c0be45a71b0e1dd833c"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Flight Nurse",
+    "status": "Unscheduled",
+    "phone": "+1 (893) 598-3333",
+    "name": {
+      "last": "Walton",
+      "first": "Sheila"
+    },
+    "index": 88,
+    "_id": "5a891c0b3b3ad7f8a71e0f31"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (806) 534-2291",
+    "name": {
+      "last": "Juarez",
+      "first": "Nikki"
+    },
+    "index": 89,
+    "_id": "5a891c0b4e687b80e8abcd33"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (860) 418-3326",
+    "name": {
+      "last": "Hudson",
+      "first": "Ava"
+    },
+    "index": 90,
+    "_id": "5a891c0b6ef8bbdf98d2db28"
+  },
+  {
+    "base": "PWT",
+    "crewType": "Flight Nurse",
+    "status": "Unschedulable",
+    "phone": "+1 (886) 524-2471",
+    "name": {
+      "last": "Ryan",
+      "first": "Katharine"
+    },
+    "index": 91,
+    "_id": "5a891c0b563cf7f9773d5d3c"
+  },
+  {
+    "base": "OLM",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (869) 566-3161",
+    "name": {
+      "last": "Patterson",
+      "first": "Cole"
+    },
+    "index": 92,
+    "_id": "5a891c0bb76d3a972470415b"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (883) 509-2645",
+    "name": {
+      "last": "Joyce",
+      "first": "Kerri"
+    },
+    "index": 93,
+    "_id": "5a891c0b36110a098adc80c3"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (995) 483-2941",
+    "name": {
+      "last": "Osborn",
+      "first": "Sandoval"
+    },
+    "index": 94,
+    "_id": "5a891c0b1037234c6393e07c"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Flight Nurse",
+    "status": "Scheduled",
+    "phone": "+1 (912) 445-2825",
+    "name": {
+      "last": "Huff",
+      "first": "Mcfarland"
+    },
+    "index": 95,
+    "_id": "5a891c0befbd2263555b9f68"
+  },
+  {
+    "base": "BLI",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (809) 530-3959",
+    "name": {
+      "last": "Clarke",
+      "first": "Shawn"
+    },
+    "index": 96,
+    "_id": "5a891c0b34679e7c1dc3754b"
+  },
+  {
+    "base": "AWO",
+    "crewType": "Pilot",
+    "status": "Scheduled",
+    "phone": "+1 (915) 513-3900",
+    "name": {
+      "last": "Stevenson",
+      "first": "Collier"
+    },
+    "index": 97,
+    "_id": "5a891c0b83b912a3a35317dd"
+  },
+  {
+    "base": "AJN",
+    "crewType": "Pilot",
+    "status": "Unschedulable",
+    "phone": "+1 (847) 496-3294",
+    "name": {
+      "last": "Herman",
+      "first": "Anna"
+    },
+    "index": 98,
+    "_id": "5a891c0bffa99f0ee4090d8a"
+  },
+  {
+    "base": "BFI",
+    "crewType": "Pilot",
+    "status": "Unscheduled",
+    "phone": "+1 (929) 534-3080",
+    "name": {
+      "last": "Bowers",
+      "first": "Paul"
+    },
+    "index": 99,
+    "_id": "5a891c0b68d70f804d616b29"
+  }
+]

@@ -1,50 +1,28 @@
 'use strict'
 
-console.log("Testing js/index.js");
-
 // globals
-var bootstrapBreakpoint = "col-xs";
-
-// data is globally available
-var masterData = [
-    {name: "Brenda", status: "unscheduled", crewType: "Flight Nurse", base: "BFI"},
-    {name: "Benjamin", status: "scheduled", crewType: "Pilot", base: "PWT"},
-    {name: "Tiffany", status: "unschedulable", crewType: "Pilot", base: "YKM"},
-    {name: "Jessica", status: "scheduled", crewType: "Flight Nurse", base: "BFI"},
-    {name: "Anushree", status: "scheduled", crewType: "Flight Nurse", base: "AJN"},
-    {name: "Lee", status: "unschedulable", crewType: "Pilot", base: "YKM"},
-    {name: "Ishan", status: "unscheduled", crewType: "Flight Nurse", base: "OLM"},
-    {name: "Evan", status: "scheduled", crewType: "Pilot", base: "BFI"},
-    {name: "Greg", status: "unscheduled", crewType: "Flight Nurse", base: "BFI"},
-    {name: "Samantha", status: "unschedulable", crewType: "Pilot", base: "PWT"},
-    {name: "Daniel", status: "scheduled", crewType: "Pilot", base: "YKM"},
-    {name: "Gary", status: "unscheduled", crewType: "Flight Nurse", base: "BFI"},
-    {name: "Debra", status: "scheduled", crewType: "Pilot", base: "AJN"},
-    {name: "Robin", status: "unschedulable", crewType: "Pilot", base: "YKM"},
-    {name: "Chris", status: "scheduled", crewType: "Flight Nurse", base: "OLM"},
-    {name: "David", status: "unscheduled", crewType: "Flight Nurse", base: "AWO"}
-];
-
-// crew availability section
-
+var bootstrapBreakpoint = "col-sm";
+var masterData = null;
 var flightCrewScale = d3.scaleOrdinal()
     // unscheduled: not working
     // unschedulable: "not able to work"
     // scheduled: "working"
-    .domain(["unscheduled", "unschedulable", "scheduled"])
+    .domain(["Unscheduled", "Unschedulable", "Scheduled"])
     .range([
         d3.rgb("#9c27b0"), 
         d3.rgb("#f44336"), 
         d3.rgb("#4caf50")
     ]);
-
-var flightCrewWidth = 600, flightCrewHeight = 100;
 var flightCrewSvg = d3.select("#flightCrewBSRow");
-    // .attr("width", flightCrewWidth)
-    // .attr("height", flightCrewHeight)
-    // .append("g")
-    // .append("div").attr("class", "row");
 
+// uses underlying fetch() API
+d3.json("/data/alnw_crew_data.json")
+    .then(json => {
+        masterData = json;
+    }
+);
+
+// function to draw D3 visualization
 function drawVis(filteredData){
 
     // clear old Bootstrap DOM elements from previous selections
@@ -62,12 +40,10 @@ function drawVis(filteredData){
         .attr("rx","5").attr("ry","5").attr("width", "50").attr("height", "50")
         .attr("status", function(d){return d.status})
         .attr("style", function(d){return "fill:" + flightCrewScale(d.status)}) // status color
-        // .attr("x", function(d,i){ // square position
-        //     return 70*i
-        // })
-        .attr("name", function(d){return d.name})
+        .attr("name", function(d){return d.name.first + " " + d.name.last})
         .attr("crewType", function(d){return d.crewType})
         .attr("base", function(d){return d.base})
+        .attr("phone", function(d){return d.phone})
         .attr("id", function(d,i){return "rect-id" + i})
         .on("mouseover", handleMouseOver)
         .on("mouseout",handleMouseOut);
@@ -85,6 +61,9 @@ function handleMouseOver(){
     let thisCrewStatus = crewSquare.attr("status");
     let thisCrewRole = crewSquare.attr("crewType");
     let thisCrewBase = crewSquare.attr("base");
+    let thisCrewPhone = crewSquare.attr("phone");
+    let phoneNode = document.createElement("a").setAttribute("href", "tel:" + thisCrewPhone);
+
     let crewSquareId = crewSquare.attr("id");
 
     let squareId = crewSquareId.slice(7);
@@ -94,7 +73,8 @@ function handleMouseOver(){
     // See: https://stackoverflow.com/questions/22634656/d3-equivalent-of-jquery-parent
     d3.select("#svg-id"+squareId).append("title") // display tooltip
         .text("Name: " + thisCrewName + "\nStatus: " + thisCrewStatus
-        + "\nRole: " + thisCrewRole + "\nBase: " + thisCrewBase);
+        + "\nRole: " + thisCrewRole + "\nBase: " + thisCrewBase
+        + "\nPhone: " + phoneNode);
 }
 
 function handleMouseOut(){
