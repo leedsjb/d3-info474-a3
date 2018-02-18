@@ -16,7 +16,7 @@ var flightCrewScale = d3.scaleOrdinal()
 var flightCrewSvg = d3.select("#flightCrewBSRow");
 
 // uses underlying fetch() API
-d3.json("/data/alnw_crew_data.json")
+d3.json("data/alnw_crew_data.json")
     .then(json => {
         masterData = json;
     }
