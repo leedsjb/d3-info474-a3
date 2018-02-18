@@ -4,14 +4,11 @@
 var bootstrapBreakpoint = "col-sm";
 var masterData = null;
 var flightCrewScale = d3.scaleOrdinal()
-    // unscheduled: not working
-    // unschedulable: "not able to work"
-    // scheduled: "working"
     .domain(["Unscheduled", "Unschedulable", "Scheduled"])
     .range([
-        d3.rgb("#9c27b0"), 
-        d3.rgb("#f44336"), 
-        d3.rgb("#4caf50")
+        d3.rgb("#9c27b0"), // unscheduled: not working
+        d3.rgb("#ffc107"), // unschedulable: "not able to work"
+        d3.rgb("#4caf50") // scheduled: "working"
     ]);
 var flightCrewSvg = d3.select("#flightCrewBSRow");
 
@@ -62,11 +59,10 @@ function handleMouseOver(){
     let thisCrewRole = crewSquare.attr("crewType");
     let thisCrewBase = crewSquare.attr("base");
     let thisCrewPhone = crewSquare.attr("phone");
-    let phoneNode = document.createElement("a").setAttribute("href", "tel:" + thisCrewPhone);
-
+    // let phoneNode = document.createElement("a").setAttribute("href", "tel:" + thisCrewPhone);
+    let phoneNode = crewSquare.attr("phone");
     let crewSquareId = crewSquare.attr("id");
-
-    let squareId = crewSquareId.slice(7);
+    let squareId = crewSquareId.slice(7); // shorten to last character of string: the id
     
     // Refinement
     // Possibility to use this.parentNode
@@ -91,13 +87,12 @@ $(document).ready(
 
         drawVis(masterData);
 
-        $("#baseSelect,#crewTypeSelect").change(function(){ // TODO consider use of => function
-            console.log("dropdown change fired");
-            filterCrewAvail(/*this.id, this.value*/);
+        $("#baseSelect,#crewTypeSelect").change(function(){
+            filterCrewAvail();
         });
 
         // crew availability visualization filter function
-        function filterCrewAvail(/*selectType, selection*/){
+        function filterCrewAvail(){
 
             // get current selected parameters from DOM <select> elements
             let baseSelection = $("#baseSelect option:selected").text();
@@ -137,16 +132,3 @@ $(document).ready(
             }
         };  
     })
-
-// make D3 responsive
-// follows this tutorial, perhaps not ideal solution
-// https://www.safaribooksonline.com/blog/2014/02/17/building-responsible-visualizations-d3-js/
-
-function resize(){
-    console.log("window resized");
-    // let width = d3.select("#flightCrew").style("width");
-    // console.log(width);
-}
-d3.select(window).on('resize', resize);
-// resize(); disable for now
-
