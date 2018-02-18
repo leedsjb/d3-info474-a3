@@ -84,6 +84,7 @@ function handleMouseOver(){
     let thisCrewName = crewSquare.attr("name");
     let thisCrewStatus = crewSquare.attr("status");
     let thisCrewRole = crewSquare.attr("crewType");
+    let thisCrewBase = crewSquare.attr("base");
     let crewSquareId = crewSquare.attr("id");
 
     let squareId = crewSquareId.slice(7);
@@ -92,7 +93,8 @@ function handleMouseOver(){
     // Possibility to use this.parentNode
     // See: https://stackoverflow.com/questions/22634656/d3-equivalent-of-jquery-parent
     d3.select("#svg-id"+squareId).append("title") // display tooltip
-        .text("Name: " + thisCrewName + "\nStatus: " + thisCrewStatus + "\nRole: " + thisCrewRole);
+        .text("Name: " + thisCrewName + "\nStatus: " + thisCrewStatus
+        + "\nRole: " + thisCrewRole + "\nBase: " + thisCrewBase);
 }
 
 function handleMouseOut(){
@@ -104,29 +106,57 @@ function handleMouseOut(){
     d3.select("#svg-id"+squareId).select("title").remove();
 }
 
-$(document).ready(function(){
-    drawVis(masterData);
-    $("#baseSelect").change(function() { // TODO consider use of => function
-         filterBases(this.value);
-    })
-})
+$(document).ready(
+    function(){
 
-// base filter function
-function filterBases(selectedBase){
-  
-    let regex = new RegExp("All");
-    let res = regex.test(selectedBase);
-
-    if(res){
         drawVis(masterData);
-    } else{
-        let filteredData = masterData.filter(function(d){
-            return d.base===selectedBase;
-        });
-        drawVis(filteredData);
-    }
-}
 
+        $("#baseSelect,#crewTypeSelect").change(function(){ // TODO consider use of => function
+            console.log("dropdown change fired");
+            filterCrewAvail(/*this.id, this.value*/);
+        });
+
+        // crew availability visualization filter function
+        function filterCrewAvail(/*selectType, selection*/){
+
+            // get current selected parameters from DOM <select> elements
+            let baseSelection = $("#baseSelect option:selected").text();
+            let crewSelection = $("#crewTypeSelect option:selected").text();
+        
+            // case: all bases and all crew types
+            if(baseSelection === "All" && crewSelection === "All"){ 
+                drawVis(masterData); // draw visualization with all data
+                return;
+            } 
+
+            // case: specific bases and all crew types
+            else if(baseSelection !== "All" && crewSelection === "All"){ 
+                let filteredData = masterData.filter(function(d){
+                    return d.base===baseSelection;
+                });
+                drawVis(filteredData);
+                return;
+            } 
+
+            // case: all bases and specific crew types
+            else if(crewSelection !== "All" && baseSelection === "All"){ 
+                let filteredData = masterData.filter(function(d){
+                    return d.crewType === crewSelection;
+                });
+                drawVis(filteredData);
+                return;
+            } 
+
+            // case: specific bases and specific crew types
+            else { 
+                let filteredData = masterData.filter(function(d){
+                    return d.crewType === crewSelection && d.base === baseSelection;
+                });
+                drawVis(filteredData);
+                return;
+            }
+        };  
+    })
 
 // make D3 responsive
 // follows this tutorial, perhaps not ideal solution
